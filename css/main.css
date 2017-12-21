@@ -18,6 +18,8 @@ h2 {
   font-size: 3rem;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: bold;
+  line-height: 1.2;
+  margin: 0;
 }
 
 .btn {
@@ -51,28 +53,30 @@ h2 {
 
 .content {
   width: 100%;
-  overflow: hidden;
   position: absolute;
   z-index: 2;
   max-width: 45em;
-  padding-left: 1em;
-  padding-right: 1em;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   left: 50%;
-  bottom: 0;
+  top: 50%;
 }
 
 .banner {
+  overflow: hidden;
   max-height: 500px;
   position: relative;
 }
 
 .mecha {
   float: left;
-  transform: translateY(-50%);
-  top: 50%;
+  width: 35%;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .text {
   float: right;
+  width: 60%;
+  padding-left: 1em;
+  padding-right: 1em;
 }
